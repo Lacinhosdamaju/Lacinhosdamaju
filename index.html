@@ -3,38 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Lacinhos da Maju</title>
 
 <style>
 body {
   margin: 0;
-  background: #fce4ec;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
-.container {
-  text-align: center;
-}
-
-img {
+/* IMAGEM OCUPANDO A TELA TODA */
+.fundo {
   width: 100%;
-  max-width: 500px;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  height: 100vh;
+  background: url("file_000000005b94720e97c4a019f604bb3d.png") no-repeat center;
+  background-size: cover;
+  position: relative;
 }
 
+/* BOTÃO */
 .botao {
-  display: inline-block;
-  margin-top: 20px;
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 15px 25px;
-  background: #ff69b4;
+  background: #ff4da6;
   color: white;
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 15px;
   font-weight: bold;
 }
 </style>
@@ -43,14 +39,10 @@ img {
 
 <body>
 
-<div class="container">
-
-<img src="file_0000000005d90..." alt="Lacinhos da Maju">
-
-<a class="botao" href="https://lacinhosdamaju2.kyte.site">
-Entrar no site
-</a>
-
+<div class="fundo">
+  <a href="https://lacinhosdamaju2.kyte.site" class="botao">
+    🎀 Entrar no site
+  </a>
 </div>
 
 </body>
